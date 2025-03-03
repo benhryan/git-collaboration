@@ -8,4 +8,4 @@ A merge conflict will happen if both develop and conflict_branch change the same
 
 3. In your own words, write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches
    
-A merge conflict will not occur if changes on develop and conflict_branch are made to different parts of the same file. For example, if develop adds a comment at the top of a file while conflict_branch modifies a print statement in the middle, Git can merge them automatically. Since the changes do not overlap, Git can integrate both without any issues. 
+A merge conflict will not occur if changes on develop and conflict_branch are made to different parts of the same file. For example, if develop adds a paragraph at the end of a file while conflict_branch modifies the title, Git can merge them automatically. Since the changes do not overlap, Git can integrate both without any issues. 
