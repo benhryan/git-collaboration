@@ -4,7 +4,7 @@ Both merges in the image are fast-forward merges because develop had no new comm
 
 2. In your own words, write down a scenario that will involve a merge conflict between develop and conflict_branch. Add your answer to readme.doc
 
-A merge conflict will happen if both develop and conflict_branch change the same line in a file differently. If develop changes line 5 in README.md to "Welcome to our project!" while conflict_branch changes it to "Hello from the conflict branch!", Git won’t know which to keep and will ask for a manual fix during the merge.
+A merge conflict will happen if both develop and conflict_branch change the same line in a file differently. If develop changes line 15 in README.md to "first change of conflict section!" while conflict_branch changes it to "second change of the conflict", Git won’t know which to keep and will ask for a manual fix during the merge. We can then accept the second change to choose.
 
 3. In your own words, write down a scenario that will NOT involve a merge conflict between develop and conflict_branch despite some change on the same file on both branches
    
